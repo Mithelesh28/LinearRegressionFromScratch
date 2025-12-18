@@ -8,6 +8,7 @@ data = pd.read_csv('tvsales.csv')
 plt.scatter(data['TV'],data['Sales'])
 plt.xlabel("TV Advertising")
 plt.ylabel("Sales")
+plt.show()
 
 
 X = data['TV'].values.reshape(1,-1)
